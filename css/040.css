@@ -1,0 +1,102 @@
+body {
+    background:#000;
+    padding:0;
+    margin:0;
+    overflow:hidden;
+    cursor: grab;
+}
+
+.box{
+    position: fixed;
+    border-radius: 15px;
+    font-family: 'Mija Bold', Monospace;
+    display: none;
+    overflow-y: scroll;
+}
+
+.box .close-btn{
+    float: right;
+    cursor: pointer;
+}
+
+.box h6{
+    margin-top: .5em;
+}
+
+#menu-container{
+    position: fixed;
+    right: 50%;
+    top: 50%;
+    width: 240px;
+    max-height: 208px;
+    text-align: right;
+}
+
+#title {          
+    color: #ffffff;
+    font-family: 'Mija Bold', Monospace;
+    font-size:5em;
+    cursor: pointer;
+}
+
+a:visited{
+    text-decoration: none;
+    color: #f0f0f0;
+}
+
+#actual_menu{   
+    margin-top: 0;
+    background-color: white;
+    font-size: 2em;
+    padding: 0;
+    display: none;
+    width: 240px;
+    line-height: 1em;
+}‍
+
+#actual_menu li{
+    margin-right: .5em;
+}
+
+li          {list-style-type: none;}
+
+li.first    {margin-top: 1em;}
+
+#actual_menu li a{
+    color: blue;
+    text-decoration: none;
+    margin-right: .25em;
+}
+
+#imgs{
+    width: 500px;
+    height: 500px;
+    background: white;
+
+    top: 5%;
+    right: 5%;
+}			
+
+#desc{
+    width: 300px;
+    height: 300px;
+    background: white;
+    font-size: 1em;
+
+    top: 20%;
+    right: 20%;
+}			
+
+#cred{
+    width: 300px;
+    height: 300px;
+    background: white;
+
+    top: 60%;
+    right: 60%;
+}
+
+.emoji{
+    display: none;
+    font-size: 1em;
+}
